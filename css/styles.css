@@ -330,6 +330,11 @@ img {
   padding-bottom: 100px;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-text {
   color: #f4f4fd;
   max-width: 264px;
@@ -346,4 +351,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus {
+  background-color: #31d0aa;
 }
